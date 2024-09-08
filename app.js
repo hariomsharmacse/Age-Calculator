@@ -46,7 +46,7 @@ calBtn.addEventListener("click", () => {
 
     console.log(d3, m3, y3);
     output.style.display = "block";
-    output.innerText = `Your age is ${y3}years ${m3}months and ${d3}days.`;
+    output.innerText = `Your are ${y3} years, ${m3} months and ${d3}days old.`;
   }
 });
 
